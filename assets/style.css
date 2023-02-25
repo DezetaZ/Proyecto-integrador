@@ -1,0 +1,342 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+}
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+    
+ }
+ /* 
+    font-family: 'Ubuntu';
+
+    font-family: 'Pacifico', cursive;   
+ 
+    font-family: 'Caveat', cursive;
+ 
+    font-family: 'Babylonica', cursive;
+
+    font-family: 'Kalam', cursive;
+ 
+ */
+ 
+ /* HEADER ---------------------------------------------------------------*/
+header{
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+    border-bottom-width: 1px;
+    border-bottom-style: groove;
+    position: absolute;
+    top: 0px;
+}
+.header-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 30px 0px 30px;
+    margin: 0 auto;
+    z-index: 999999999;
+    top: 0;
+    
+    
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-title{
+    color: aliceblue;
+    font-family: 'Babylonica', cursive;
+    font-size: 30px;
+    font-weight: 100;
+}
+.header-icon{
+    height: 80px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: max-content;
+    gap: 30px;
+    
+}
+.navbar-text {
+    color: rgb(238, 238, 238);
+    font-weight: 500;
+    font-size: 18px;
+}
+.checkicon{
+    display: none;
+}
+
+
+
+/* HERO ---------------------------------------------------------------*/ 
+#hero{
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 232, 232);
+    
+    
+}
+.hero-cont{
+    display: flex;
+    
+    max-width: 1200px;
+    
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 1rem;
+    
+    
+}
+h1{
+    font-size: 43px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    font-family: 'Kalam', cursive;
+}
+.hero-p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.hero-text{
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 50px;
+    
+
+}
+.hero-btn{
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 50px;
+    box-shadow: rgb(67, 67, 67);
+    background-color: rgb(225, 214, 3);
+    border-style: inset;
+    border-width: 1px;
+    margin-top: 15px;
+    font-weight: 500;
+    
+}
+.hero-img{
+    height: 40%;
+    width: 40%;
+    
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 50px 5px rgb(105, 104, 104);
+    
+}
+
+
+/* ABOUT US ---------------------------------------------------------------*/ 
+#about-us{  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    
+    background: linear-gradient(0deg, rgb(28, 28, 28) 10%, rgba(255,255,255,0) 100%);
+    
+}
+.about-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 800px;
+    font-family: 'Kalam', cursive;
+}
+.about-text{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+    width: 50%;
+}
+.about-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orquesta{
+    margin-top: 50px;
+    height: 500px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 50px 20px rgb(28, 28, 28);
+}
+
+
+/* CONTACTO --------------------------------------------------------------- */ 
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+    
+}
+.contacto-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(175, 183, 187);
+    font-family: 'Kalam', cursive;
+    font-size: 50px;
+
+}
+.card-username{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card-style{
+    display: flex;
+    justify-content: centfer;
+    align-items: flex-start;
+    background-color: rgb(219, 220, 221);
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+}
+.inputstyle{
+    background-color: rgba(177, 177, 40, 0);
+    border-style: none;
+    
+    align-items: center;
+    
+}
+.card-msj{
+    height: 100px;
+}
+#nombre{
+    width: 100%;
+}
+#apellido{
+    width: 100%;
+}
+#email{
+    width: 100%;
+}
+#msj{
+    width: 100%;
+    height: 100%;
+}
+#number{
+    width: 100%;
+}
+
+/* FOOTER --------------------------------------------------------------- */ 
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    color: rgb(219, 220, 221);
+    font-size: 15px;
+    font-weight: 100;
+}
+.footer-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    padding-bottom: 30px;
+}
+.footer-img-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-img{
+    height: 35px;
+}
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-text-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+}
+.footer-title{
+    color: aliceblue;
+    font-family: 'Babylonica', cursive;
+    font-size: 30px;
+    font-weight: 100;
+}
+.legal{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    width: 90%;
+    max-width: 1200px;
+    border-style: inset;
+    border-width: 1px 0px 0px 0px ;
+    
+
+}
