@@ -153,7 +153,7 @@ h1{
     box-shadow: 50px;
     box-shadow: rgb(67, 67, 67);
     background-color: rgb(225, 214, 3);
-    border-style: inset;
+    border-style: solid;
     border-width: 1px;
     margin-top: 15px;
     font-weight: 500;
