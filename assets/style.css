@@ -265,8 +265,11 @@ h1{
 .inputstyle{
     background-color: rgba(177, 177, 40, 0);
     border-style: none;
-    
+    text-align: center;
     align-items: center;
+    height: 23px;
+    font-size: 18px;
+    
     
 }
 .card-msj{
