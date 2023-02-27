@@ -104,6 +104,12 @@
         font-size: 25px;
         font-weight: 800px;
     }
+    .hero-text{
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 @media (max-width: 400px){
     .card-username{
