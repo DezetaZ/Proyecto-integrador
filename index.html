@@ -7,6 +7,8 @@
     <title>Vianotta</title>
 
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/animation.css">
+    <link rel="stylesheet" href="./assets/media.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,18 +40,19 @@
             </span>
             
             <nav>
-                <label for="menutoggle"></label>
-                <div class="menuh-cont">
-                    <span class="menuh"></span>
-                    <span class="menuh"></span>
-                    <span class="menuh"></span>
-                </div>
+                <label for="menutoggle" class="navbar-active">
+                    <div class="menuh-cont">
+                        <span class="menuh"></span>
+                        <span class="menuh"></span>
+                        <span class="menuh"></span>
+                    </div>
+                </label>
                 <input type="checkbox" id="menutoggle" class="checkicon">
                 <ul class="navbar">
-                    <li><a href="#" class="navbar-text">Inicio</a></li>
-                    <li><a href="#" class="navbar-text">Nosotros</a></li>
-                    <li><a href="#" class="navbar-text">Contacto</a></li>
-                    <li><a href="#" class="navbar-text">Iniciar secion</a></li>
+                    <li><a href="#hero" class="navbar-text btn">Inicio</a></li>
+                    <li><a href="#about-us" class="navbar-text btn">Nosotros</a></li>
+                    <li><a href="#contacto" class="navbar-text btn">Contacto</a></li>
+                    
                 </ul>
                 
             </nav>
@@ -61,7 +64,7 @@
             <div class="hero-text">
                 <h1>Academia de musica Vianotta</h1>
                 <p class="hero-p">Con nuestros profesores podras especializarte en tu instrumento ya sea que tengas o no experiencia en el</p>
-                <a href="#" class="hero-btn">Conocer mas</a>
+                <a href="#" class="hero-btn btn">Conocer mas</a>
     
             </div>
             <img src="./assets/Imagenes/Violin.jpg" alt="Violin" class="hero-img">

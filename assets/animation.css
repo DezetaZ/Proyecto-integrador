@@ -1,0 +1,19 @@
+*{
+    transition: 0.5s ;
+}
+.btn:hover{
+    scale: 1.1;
+    background-color: rgb(28, 28, 28);
+    color: rgb(187, 220, 253);
+    transition: all 1s;
+}
+   
+    
+.card-style:hover{
+    
+    border-color: rgb(75, 75, 75);
+}
+#menutoggle:checked + .navbar {
+    transform: translateX(0%);
+    transition: all 0.5s ease-in-out;
+}
