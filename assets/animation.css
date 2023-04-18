@@ -13,3 +13,12 @@
     
     border-color: rgb(75, 75, 75);
 }
+.login-btn:hover{
+    background-color: rgb(167, 22, 22);
+    color: white;
+    transition: all 1s;
+}
+.help:hover{
+    color: rgb(124, 253, 253);
+    transition: all 1s;
+}
